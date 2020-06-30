@@ -33,13 +33,13 @@
 <script>
   document.getElementById('img').onclick = function () {
     console.log(123)
-    wx.miniProgram.previewImage({
+    wx.previewImage({
       current: 'https://kerastasewechat.blob.core.chinacloudapi.cn/prod/BAQrCode/mp/KiehlsBAQR-AF13J2052.jpg', // 当前显示图片的http链接
       urls: ['https://kerastasewechat.blob.core.chinacloudapi.cn/prod/BAQrCode/mp/KiehlsBAQR-AF13J2052.jpg'] // 需要预览的图片http链接列表
     })
   }
   document.getElementById('img1').onclick = function () {
-    wx.miniProgram.previewImage({
+    wx.previewImage({
       current: 'https://kerastasewechat.blob.core.chinacloudapi.cn/prod/BAQrCode/mp/KiehlsBAQR-AF13J2052.jpg', // 当前显示图片的http链接
       urls: ['https://kerastasewechat.blob.core.chinacloudapi.cn/prod/BAQrCode/mp/KiehlsBAQR-AF13J2052.jpg'] // 需要预览的图片http链接列表
     })
